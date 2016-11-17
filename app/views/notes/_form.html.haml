@@ -1,6 +1,6 @@
 = simple_form_for @note do |f|
   %p How's your day going?
-  = f.select :emoji, ['💩', '😊','😡','😏','🙃']
+  = f.select :emoji, Note::EMOJI_OPTIONS
   %p Write a sentence or two why
   = f.input :content, label: false
-  = f.button :submit, 'Send!'
+  = f.button :submit, 'Send'
