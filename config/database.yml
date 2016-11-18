@@ -22,6 +22,11 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
-  encoding: utf8mb4
-  collation: utf8mb4_bin
+  adapter: postgresql
+  template: template0
+  encoding: unicode
+  database: postgres
+  pool: 5
+  username: postgres
+  password:
+  host: db_1
