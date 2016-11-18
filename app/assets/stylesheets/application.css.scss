@@ -9,7 +9,7 @@ $light_gray: #C0C1C1;
 $green: #33CD99;
 
 @mixin bold_font {
-	font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Open Sans";
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -21,7 +21,7 @@ $green: #33CD99;
 
 body {
 	padding-top: 4.5rem;
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+	font-family: "Open Sans";
 	text-align:center;
    margin: 0;
 
