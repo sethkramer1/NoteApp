@@ -1,6 +1,6 @@
 = simple_form_for @note do |f|
-  %emoji_drop
-    = f.select :emoji, Note::EMOJI_OPTIONS
+
+  = f.select :emoji, Note::EMOJI_OPTIONS
   %p
   = f.input :content, label: "Write a sentence or two why"
   = f.button :submit, 'Submit', :class => "button"
