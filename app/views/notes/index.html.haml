@@ -1,7 +1,7 @@
 .wrapper_with_padding
   - @notes.each do |note|
     %emoji_font=  link_to note.emoji, note
-    %p= note.created_at.strftime("%A %b %d")
+    %p= note.created_at.strftime("%A, %b %d")
 
 
   %br

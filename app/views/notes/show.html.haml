@@ -1,7 +1,10 @@
 .wrapper_with_padding
-  %h1= @note.title
+  %b= @note.created_at.strftime("%A, %b %d")
+  %br/
+  %br/
+  %emoji_font= @note.emoji
   %p= @note.content
-  %p= @note.emoji
+
 
   = link_to "All Notes", notes_path
 
